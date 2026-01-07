@@ -62,12 +62,12 @@ To retrain or customize the model:
 ## Project Structure
 
 EmotionSense-AI/
-├── app.py
-├── best_model_weights.h5
-├── FER_DL_FinalProject.ipynb
-├── predictions.json
-├── requirements.txt
-└── README.md
+- ├── app.py
+- ├── best_model_weights.h5
+- ├── FER_DL_FinalProject.ipynb
+- ├── predictions.json
+- ├── requirements.txt
+- └── README.md
 
 
 ## How to Run
@@ -77,15 +77,19 @@ EmotionSense-AI/
    cd path/to/EmotionSense-AI
 
 2. Create a virtual environment:
+   ```bash
    python -m venv venv
 
-3. Activate the virtual environment (windows): 
+4. Activate the virtual environment (windows):
+   ```bash
    venv\Scripts\activate
 
-4. Install dependencies from requirements.txt:
+6. Install dependencies from requirements.txt:
+   ```bash
    pip install -r requirements.txt
 
-5. Run the Streamlit application:
+8. Run the Streamlit application:
+   ```bash
    streamlit run app.py
 
 ## Notes

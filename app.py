@@ -1,4 +1,5 @@
 # app.py
+import utils.session
 import streamlit as st
 import cv2
 from keras.applications import MobileNetV2
